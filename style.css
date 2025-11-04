@@ -88,5 +88,44 @@
 .hero-image-section {
     max-width: 45%;
 }
-    
+
+
+product-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.product-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.product-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+}
 
