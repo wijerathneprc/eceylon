@@ -129,3 +129,22 @@ product-section {
     color: #ff6600;
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
