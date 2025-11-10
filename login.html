@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCEYLON</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>eCEYLON</h1>
+        <form action="/login" method="post">
+            <!-- <label for="username">Username:</label> -->
+            <input type="text" id="username" name="username" required placeholder="Username"><br><br>
+            <!-- <label for="password">Password:</label> -->
+            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <div>
+            <input type="checkbox" id="remember-me" name="remember-me">
+            <label for="remember-me"> Remember Me </label>
+        </div>
+        <div>
+            <a class="register-btn" href="#"> Register </a>
+            <a class="forget-password-btn" href="#"> forget password </a>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
