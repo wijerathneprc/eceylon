@@ -26,18 +26,30 @@ body {
 
 .navbar-container {
     grid-column: span 12;
-    background-color: #9e9b9b;
+    background-color: #EF7722;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:#fff
 }
 
 
 .logo-section {
     flex-shrink: 0;
-    border: 1px solid #000;
+    /* border: 1px solid #fff; */
     margin: 10px 20px;
+    color:#fff;
+    border-radius: 5px;
+    background-color: #0000003b;
+    padding: 5px;
+}
+.logo-section a{
+    color:#EBEBEB;
+    text-decoration: none;
+    font-weight: bolder;
+    padding:10px;
+    
 }
 .search-bar-section {
     flex-grow: 1;
@@ -52,6 +64,8 @@ body {
     padding: 8px;
     border: 1px solid #000000;
     border-radius: 8px 0 0 8px;
+    color:#fff;
+    background-color: #EBEBEB;
 }
 
 .search-bar-section input[type="text"]:focus {
@@ -78,6 +92,7 @@ body {
 
 .login{
     margin: 10px 10px;
+    color: #fff;
 }
 .cart-icon{
     margin: 10px 10px;
@@ -89,8 +104,22 @@ body {
     justify-self: center;
     align-self: center;
     width: 90%;
-    padding: 40px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
 }
+.shop-now-button {
+    background-color:#EF7722;
+    text-decoration: none;
+    color:#fff;
+    font-weight: bolder;
+    padding:10px 20px;
+    margin-top:30px;
+    border-radius: 5px;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
 
 .hero-image-container {
     padding: 0 40px;
@@ -200,14 +229,69 @@ body {
     padding: 30px 20px;
     text-align: center;
     margin-top: 20px;
-    /* border: #000 1px solid; */
 }
 
+
+/* footer section style*/
 .footer-container {
     grid-column: span 12;
-    background-color: #333;
+    background-color: #19183B;
     color: #fff;
-    text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
 }   
+.find-more{
+    width: 60%;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+   
+}
+.browse-more{
+    width: 60%;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.social-media{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 1;
+    justify-self: center;
+    text-align: start;
+}
+.footer-container a{
+    text-decoration: none;
+    color:#fff; 
+    margin: 10px;  
+}
+.social-media a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:10px;
+}
+.social-media img{
+    width:24px;  
+}
+.copy-right{
+    grid-column: span 3;
+    width:100%;
+    margin-top:20px;
+    justify-self: center;
+    text-align: center;
+}
+.copy-right hr{
+    width: 50%;
+    color:#fff;
+    margin: 10px auto;
+    
+}
+
+
+
