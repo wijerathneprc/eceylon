@@ -9,60 +9,7 @@
 </head>
 
 <body>
-    <!-- <header class="navigation-bar">
-        <div class="logo-section"> 
-            <a href="#"> eCEYLON </a>  
-        </div>
-        
-        <div class="search-bar-section"> 
-            <input type="text" placeholder="search">
-            <img class="search-bar-icon" src="./images/search-icon-2.svg" alt="">
-        </div>
-        
-        <div class="cart-login-section"> 
-            <a class="login" href="#">Login</a>
-            <img class="cart-icon" src="./images/shopping-cart-white.svg" alt="">
-        </div>
-    </header>
-    <section class="hero-section">
-        <div class="hero-text-section">
-            <h1>Welcome to eCEYLON</h1>
-            <p>Your one-stop shop for all things Ceylon!</p>
-            <a class="shop-now-button" href="#">Shop Now</a>
-        </div>
-        <div class="hero-image-section">
-            <img src="./images/hero-image.avif" alt="Hero Image">
 
-    </section>
-    <section class="product-section">
-        <h2>Famous Products</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="./images/product1.jpg" alt="Product 1">
-                <h3>Product 1</h3>
-                <p>$19.99</p>
-                <a class="buy-now-button" href="#">Buy Now</a>
-            </div>
-            <div class="product-card">
-                <img src="./images/product2.jpg" alt="Product 2">
-                <h3>Product 2</h3>
-                <p>$29.99</p>
-                <a class="buy-now-button" href="#">Buy Now</a>
-            </div>
-            <div class="product-card">
-                <img src="./images/product3.jpg" alt="Product 3">
-                <h3>Product 3</h3>
-                <p>$39.99</p>
-                <a class="buy-now-button" href="#">Buy Now</a>
-            </div>
-        </div>
-
-    </section>
-    <footer>
-        <p>&copy; 2024 eCEYLON. All rights reserved.</p>
-        
-
-    </footer> -->
     <div class="container">
         <div class="navbar-container">
             <div class="logo-section">
@@ -94,7 +41,9 @@
         <div class="products-container">
             <h2> Big Dealz </h2>
             <div class="product-grid">
+                <button class="left-btn" id="left-btn-discount" onclick="leftScroll()"><img src="/images/icons/arrow-left-red.svg" alt=""></button>
                 <div class="product-card">
+                    
                     <img src="./images/apple/ipad/ipad-11-1.png" alt="Product 1">
                     <h3>Ipad 11</h3>
                     <p>$19.99</p>
@@ -161,12 +110,14 @@
                     <p>$39.99</p>
                     <a class="buy-now-button" href="#">Buy Now</a>
                 </div>
+                <button class="right-btn" id="right-btn-discount" onclick="rightScroll()"><img src="images/icons/arrow-right-red.svg" alt=""></button>
 
             </div>
         </div>
         <div class="products-container">
             <h2> New Arrivals in Sri Lanka </h2>
             <div class="product-grid">
+                <button class="left-btn" id="left-btn-new" onclick="leftScroll()"><img src="/images/icons/arrow-left-red.svg" alt=""></button>
                 <div class="product-card">
                     <img src="./images/apple/ipad/ipad-11-1.png" alt="Product 1">
                     <h3>Ipad 11</h3>
@@ -222,12 +173,14 @@
                     <p>$39.99</p>
                     <a class="buy-now-button" href="#">Buy Now</a>
                 </div>
+                <button class="right-btn" id="right-btn-new" onclick="rightScroll()"><img src="images/icons/arrow-right-red.svg" alt=""></button>
 
             </div>
         </div>
         <div class="customer-review-container">
             <h2> Customer Reviews </h2>
             <div class="customer-grid">
+                <button class="left-btn" id="left-btn-customer" onclick="leftScroll()"><img src="/images/icons/arrow-left-red.svg" alt=""></button>
                 <div class="review-card">
                     <img class="customer-image" src="./images/customers/person-11.png" alt="">
                     <p>"Great service and fast delivery! Highly recommend eCEYLON for all your electronic needs."</p>
@@ -277,10 +230,8 @@
                     <h3>- Kasun Fernando</h3>
                     <h3> Colombo </h3>
                 </div>
+                <button class="right-btn" id="right-btn-customer" onclick="rightScroll()"><img src="images/icons/arrow-right-red.svg" alt=""></button>
             </div>
-
-
-
         </div>
 
         <div class="about-us-container">
@@ -320,6 +271,8 @@
 
         </div>
     </div>
+
+    <script src="script.js"></script>
 
 
 </body>

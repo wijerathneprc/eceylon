@@ -115,6 +115,7 @@ body {
     gap: 20px; 
     /* border: #000 1px solid; */
     justify-content: center;
+    position: relative;
 }
 .products-container h2 {
     /* border: #000 1px solid; */
@@ -158,6 +159,7 @@ body {
     padding: 40px 40px;
     gap: 20px; 
     justify-content: center;
+    position:relative;
 }
 
 .customer-review-container h2 {
@@ -170,6 +172,8 @@ body {
     display: flex;
     gap: 20px;
     overflow-x: auto;
+   
+    border:#000 solid 1px;
 }
 
 .customer-grid::-webkit-scrollbar {
@@ -188,6 +192,21 @@ body {
 .customer-image{
     width:100px;
     border-radius: 50%;
+}
+.left-btn{
+    position:absolute;
+    left:0;
+    height: 40px;
+    margin:50px;
+    align-self: center;
+}
+
+.right-btn{
+    position:absolute;
+    right:0;
+    height: 40px;
+    margin:50px;
+    align-self:center;
 }
 
 
