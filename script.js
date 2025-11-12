@@ -1,5 +1,3 @@
-const container = document.getElementsByClassName('customer-grid')[0];
-
 function leftScroll(container){
     container.scrollBy({
         left:100,
@@ -18,13 +16,11 @@ function rightScroll(container){
 document.getElementById('left-btn-customer').addEventListener('click', ()=>{
     const container = document.getElementsByClassName('customer-grid')[0];
     leftScroll(container)
-
 })
 
 document.getElementById('right-btn-customer').addEventListener('click', ()=>{
     const container = document.getElementsByClassName('customer-grid')[0];
     rightScroll(container)
-
 })
 
 

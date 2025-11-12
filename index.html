@@ -49,7 +49,9 @@
     <!-- discount section -->
     <div class="product-container prod-discount-container">
         <h2> The Biggest Discount in Sri Lanka </h2>
-        <div class="product-grid">
+        <div class="product-grid"> 
+            <button class="left-btn" id="left-btn-discount" onclick="leftScroll()"><img src="/images/icons/arrow-left-red.svg" alt=""></button>
+
             <div class="product-card">
                 <img src="./images/apple/ipad/ipad-11-1.png" alt="Product 1">
                 <h3>Ipad 11</h3>
@@ -75,6 +77,7 @@
                 <a class="buy-now-button" href="#">Buy Now</a>
             </div>
             <div class="product-card">
+
                 <img src="./images/apple/iphone/smartphone-iphone-16-1.png" alt="Product 2">
                 <h3>Iphone 16</h3>
                 <p>$29.99</p>
@@ -117,7 +120,7 @@
                 <p>$39.99</p>
                 <a class="buy-now-button" href="#">Buy Now</a>
             </div>
-
+             <button class="right-btn" id="right-btn-discount" onclick="rightScroll()"><img src="images/icons/arrow-right-red.svg" alt=""></button>
         </div>
     </div>
 
@@ -128,6 +131,7 @@
     <div class="product-container prod-discount-container">
         <h2> New Arrivals in Sri Lanka </h2>
         <div class="product-grid">
+            <button class="left-btn" id="left-btn-new" onclick="leftScroll()"><img src="/images/icons/arrow-left-red.svg" alt=""></button>
             <div class="product-card">
                 <img src="./images/apple/ipad/ipad-11-1.png" alt="Product 1">
                 <h3>Ipad 11</h3>
@@ -183,6 +187,7 @@
                 <p>$39.99</p>
                 <a class="buy-now-button" href="#">Buy Now</a>
             </div>
+            <button class="right-btn" id="right-btn-new" onclick="rightScroll()"><img src="images/icons/arrow-right-red.svg" alt=""></button>
 
         </div>
     </div>
@@ -191,6 +196,7 @@
     <div class="customer-review-container">
         <h2> Customer Reviews </h2>
         <div class="customer-grid">
+             <button class="left-btn" id="left-btn-customer" onclick="leftScroll()"><img src="/images/icons/arrow-left-red.svg" alt=""></button>
             <div class="review-card">
                 <img class="customer-image" src="./images/customers/person-11.png" alt="">
                 <p>"Great service and fast delivery! Highly recommend eCEYLON for all your electronic needs."</p>
@@ -240,6 +246,7 @@
                 <h3>- Kasun Fernando</h3>
                 <h3> Colombo </h3>
             </div>
+            <button class="right-btn" id="right-btn-customer" onclick="rightScroll()"><img src="images/icons/arrow-right-red.svg" alt=""></button>
         </div>
 
 
@@ -288,6 +295,8 @@
 
 
     </div>
+
+     <script src="script.js"></script>
 </body>
 
 </html>
