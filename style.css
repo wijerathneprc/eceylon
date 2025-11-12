@@ -224,11 +224,16 @@ h2 {
 }
 
 .about-us-container h2 {
+    /* border:#000 solid 2px; */
+    
     text-align: center;
 }
 
 .about-us-container h3 {
-    width: 50%;
+    width: 90%;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
 }
 
 .about-us-container img {
@@ -407,19 +412,19 @@ a.logo-footer {
         padding: 0 16px;
     }
 
-    .about-us-container h2 {
+    .about-us-text {
         grid-column: span 4;
         text-align: center;
     }
 
-    .about-us-container h3 {
+    /* .about-us-container h3 {
         grid-column: span 4;
-        width: 50%;
+        /* width: 90%;
         justify-self: center;
         align-self: center;
-        text-align: center;
+        text-align: center; */
         /* padding: 16px 0; */
-    }
+    /* } */
 
     .about-us-container img {
         grid-column: span 4;
@@ -594,16 +599,13 @@ a.logo-footer {
         text-align: center;
     }
 
-    .about-us-container h3 {
-        grid-column: span 4;
-        width: 50%;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
+    .about-us-text {
+        grid-column: span 8;
+        width: 90%;
     }
 
     .about-us-container img {
-        grid-column: span 4;
+        grid-column: span 8;
         width: 100%;
         text-align: center;
     }
@@ -722,12 +724,11 @@ a.logo-footer {
         padding: 0;
     }
 
-    .about-us-container h2 {
-        grid-column: span 12;
-    }
+    
 
-    .about-us-container h3 {
+      .about-us-text {
         grid-column: span 6;
+        align-self: center;
     }
 
     .about-us-container img {
