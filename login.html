@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eCEYLON</title>
-    <link rel="stylesheet" href="style_login.css">
+    <link rel="stylesheet" href="styles/login.css">
 </head>
+
 <body>
     <div class="login-container">
-         <a class="logo-link" href="index.html" > <h1> eCEYLON </h1>  </a> 
-        <form action="/login" method="post">
-            <!-- <label for="username">Username:</label> -->
-            <input type="text" id="username" name="username" required placeholder="Username"><br><br>
-            <!-- <label for="password">Password:</label> -->
-            <input type="password" id="password" name="password" required placeholder="Password"><br><br>
-            <button type="submit">Login</button>
-        </form>
-        <div>
-            <input type="checkbox" id="remember-me" name="remember-me">
-            <label for="remember-me"> Remember Me </label>
-        </div>
-        <div>
-            <a class="register-btn" href="register.html"> Register </a>
-            <a class="forget-password-btn" href="#"> forget password </a>
+        <h1><a class="logo-link-h1" href="index.html">eCEYLON</a></h1>
 
+        <form class="login-form" action="/login" method="post">
+            <h2> Login to your account </h2>
+            <input type="text" id="username" name="username" required placeholder="Username">
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <button class="login-btn" type="submit">Login</button>
+            <div class="login-remember-me">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                <label for="remember-me"> Remember me </label>
+            </div>
+        </form>
+
+        <div class="login-register-pasword">
+            <a class="register-btn" href="register.html"> Register </a>
+            <a class="forget-password-btn" href="#"> forget password? </a>
         </div>
-        
     </div>
-    
+
 </body>
+
 </html>
